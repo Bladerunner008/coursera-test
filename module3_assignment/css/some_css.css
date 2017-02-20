@@ -3,89 +3,26 @@
 	box-sizing: border-box;
 }
 
-body {
-	font: bold;
-	font-family: Verdana, Geneva, sans-serif;
-	color: black;
-	text-align: center;
+.navbar-brand {
+	height: auto;
 }
 
-h1 {
-	font-size: 175%;
-}
-
-section {
-	font-size: 125%;	
-}
-
-.row {	
-  width: 100%;
-}
-
-
-.stylingBox{
-	float: left;
-	border-width: 2px;
- 	margin-bottom: 25px;  	
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.sectionTitle{
-	margin-left: 15px;	
-	min-width: 150px;
-	float: right;
-	border: 1px solid black;
-}
-
-div.inside{
-	font-size: 75%;
-	border: 1px solid black;
+#header-nav{
 	background-color: grey;
 }
 
-
-#first{
-	background-color: #E67878;
-	color: white;
+#header-nav > .container{
+	width:100%;
 }
 
-#second{
-	background-color: green;	
-	color: white;
+#brand-text:hover { 
+	text-decoration: none;
 }
 
-#third{
-	background-color: #BFF0BF;
+#brand-text{
+	color: black;
 }
 
-
-
-@media (min-width: 992px) {
-  	.stylingBox{	
-    	width: 33%;  
-  	}
-
+	.navbar-toggle{
+	background-color: #aaaaaa;
 }
-
-@media (min-width: 768px) and (max-width: 991px) {
-  	.stylingBox {
-		width: 50%;
-	}
-
-
-	#thirdColumn{
-		width: 100%;
-	}
-
-}
-
-@media (max-width: 767px) {
-  	.stylingBox {
-    	width: 100%;
-  	}
-
-	
-	
-}
-
